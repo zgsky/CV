@@ -1,0 +1,11 @@
+# "'localhost:9092','78989.23.13'",10.63.40.11:9092
+bootstrap_servers: localhost:9092   #mutils  localhost:9092,192.17.1.77:9092
+compression_type: None   # None,gzip,lz4,snappy
+acks: 1
+buffer_memory: 33554432
+request_timeout_ms: 5000
+batch_size: 16384
+max_request_size: 1048576
+linger_ms: 0
+serializer: False
+
